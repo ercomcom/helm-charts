@@ -6556,6 +6556,39 @@ entries:
     urls:
     - https://github.com/ercomcom/helm-charts/releases/download/fluent-operator-fluent-bit-crds-4.2.0/fluent-operator-fluent-bit-crds-4.2.0.tgz
     version: 4.2.0
+  fluent-operator-fluentd-crds:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: "No chart changes; version aligned with fluent-operator v4.2.0 release (appVersion v3.9."
+    apiVersion: v2
+    appVersion: 3.9.0
+    created: "2026-06-12T13:45:15.699087969Z"
+    description: Custom Resource Definitions (CRDs) for Fluentd. Provides full Helm
+      lifecycle management for all Fluentd CRDs used by Fluent Operator.
+    digest: 780f542131293967f91292397c1d9cc5b2f93a080d211e5d2d31982485ac75c4
+    home: https://github.com/fluent/fluent-operator
+    icon: https://raw.githubusercontent.com/fluent/fluent-operator/master/docs/images/fluent-operator-icon.svg
+    keywords:
+    - logging
+    - fluentd
+    - fluent-operator
+    - crds
+    maintainers:
+    - email: dehaocheng@kubesphere.io
+      name: wenchajun
+    - email: marco.franssen@gmail.com
+      name: marcofranssen
+      url: https://marcofranssen.nl
+    - email: joshbaird@gmail.com
+      name: joshuabaird
+    name: fluent-operator-fluentd-crds
+    sources:
+    - https://github.com/fluent/fluent-operator/tree/master/charts/fluent-operator-fluentd-crds
+    type: application
+    urls:
+    - https://github.com/ercomcom/helm-charts/releases/download/fluent-operator-fluentd-crds-4.2.0/fluent-operator-fluentd-crds-4.2.0.tgz
+    version: 4.2.0
   fluentd:
   - apiVersion: v2
     appVersion: v1.17.1
@@ -7215,4 +7248,4 @@ entries:
     urls:
     - https://github.com/fluent/helm-charts/releases/download/fluentd-0.1.0/fluentd-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-12T13:44:03.876121172Z"
+generated: "2026-06-12T13:45:15.699814306Z"
